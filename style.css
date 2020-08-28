@@ -1,7 +1,5 @@
 .body {
   font-size: 15px;
-  min-width: 375px;
-  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -45,17 +43,26 @@
 .header__language-ru {
   color: #fff;
   background: url('img/lang__switch.png') right no-repeat;
+  font-family: Montserrat;
+  font-style: normal;
   padding: 0 18px 0 0;
   font-size: 20px;
+  font-weight: 500;
   line-height: 24px;
   height: 25px;
   width: 31px;
+  position: relative;
+  cursor: pointer;
 }
 
 .header__language-ru:: after {
   content: "";
   color: #fff;
   position: absolute;
+  height: 9px;
+  width: 13px;
+  left: 40px;
+  top: 9px;
 }
 
 .header__language-ru: hover {
@@ -139,10 +146,10 @@
 }
 
 .header__burger {
+  position: absolute;
   right: 0;
   margin-left: auto;
   display: flex;
-  position: absolute;
   width: 92px;
   height: 92px;
   background-color: #ededed;
@@ -230,15 +237,14 @@
 }
 
 .new-collection__section {
-  position: relative;
-  top: 100px;
+  width: 500px;
+  padding-top: 120px
 }
 
 .new-collection__title {
   width: 475px;
   height: 164px;
-  margin-bottom: 36px;
-  left: 789px;
+  margin-bottom: 26px;
   font-family: Montserrat, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -249,12 +255,12 @@
 
 .new-collection__description {
   width: 508px;
-  margin-bottom: 36px;
+  margin-bottom: 40px;
   font-family: Montserrat, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 17px;
-  line-height: 25px;
+  font-size: 15px;
+  line-height: 22px;
   color: #000;
 }
 
