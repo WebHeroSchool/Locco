@@ -74,8 +74,6 @@
   margin-left: auto;
   position: relative;
   align-self: flex-end;
-  width: 70px;
-  height: 70px;
   cursor: pointer;
 }
 
@@ -146,8 +144,6 @@
 }
 
 .header__burger {
-  position: absolute;
-  right: 0;
   margin-left: auto;
   display: flex;
   width: 92px;
@@ -228,6 +224,13 @@
   position: relative;
   display: flex;
   min-height: 850px;
+}
+
+.new-collection__inner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1100px;
 }
 
 .new-collection__girl {
