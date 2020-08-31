@@ -6,6 +6,7 @@
 .header {
   display: flex;
   align-items: center;
+  flex-wrap: nowrap;
 }
 
 .header::before {
@@ -236,7 +237,7 @@
 .new-collection__girl {
   width: 549px;
   height: 562px;
-  margin: 86px 54px 0 180px;
+  margin: 86px 54px 0;
 }
 
 .new-collection__section {
