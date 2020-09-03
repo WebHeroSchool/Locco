@@ -732,7 +732,7 @@
   }
 }
 
-.page3 {
+.total-look {
   position: relative;
   height: 900px;
   background: linear-gradient(to right, #ebe3d8 27%, #000 27%, #000 32%, #ebe3d8 32%);
@@ -772,46 +772,47 @@
 }
 
 .total-look__title {
-    width: 375px;
-    height: 41px;
-    left: 47px;
-    top: 34px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 41px;
-  }
+  width: 375px;
+  height: 41px;
+  left: 47px;
+  top: 34px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 41px;
+  font-weight: bold;
+}
 
-  .total-look__subtitle {
-    width: 220px;
-    height: 17px;
-    left: 47px;
-    top: 17px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 16px;
-    letter-spacing: .07em;
-    color: #000;
-    opacity: 0.5;
-    text-transform: uppercase;
-  }
+.total-look__subtitle {
+  width: 220px;
+  height: 17px;
+  left: 47px;
+  top: 17px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: .07em;
+  color: #000;
+  opacity: 0.5;
+  text-transform: uppercase;
+}
 
-  .total-look__description {
-    width: 368px;
-    height: 0;
-    left: 50px;
-    top: 35px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 21px;
-    color: #000;
-    opacity: 0.5;
-  }
+.total-look__description {
+  width: 368px;
+  height: 0;
+  left: 50px;
+  top: 35px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  color: #000;
+  opacity: 0.5;
+
+}
 
 .btn btn_cost {
   position: relative;
@@ -821,7 +822,7 @@
   top: 130px;
   border: 1.5px solid #000;
   box-sizing: border-box;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -838,7 +839,7 @@
     top: 130px;
     border: 1.5px solid #000;
     box-sizing: border-box;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 13px;
@@ -874,7 +875,7 @@
     height: 15px;
     left: 85%;
     top: 810px;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
@@ -890,6 +891,7 @@
     height: 22px;
     left: 125px;
     top: 0;
+    font-weight: bold;
   }
 
 @media (max-width: 1315px) {
@@ -936,7 +938,7 @@
 }
 
 @media (max-width: 515px) {
-  .page3 {
+  .total-look {
     background: linear-gradient(to right, #ebe3d8 27%, #000 27%, #000 37%, #ebe3d8 37%);
     height: 596px;
     min-width: 375px;
