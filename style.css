@@ -857,7 +857,7 @@
   width: 350px;
   font-size: 13px;
   line-height: 16px;
-  top: 415;
+  top: 415px;
   font-family: Montserrat, sans-serif;
   position: absolute;
   left: 120px;
@@ -885,7 +885,7 @@
   .footer::after {
     content: "";
     position: absolute;
-    background-image: url(./img/Маленький%20желто-белый-svg.png); no-repeat;
+    background-image: url(./img/Маленький%20желто-белый-svg.png);
     width: 82px;
     height: 22px;
     left: 125px;
@@ -900,7 +900,7 @@
 
   .total-look__other{
     left: 120px;
-    top: 390px;
+    top: 400px;
   }
 }
 
@@ -917,7 +917,7 @@
 
   .total-look__other {
     left: 150px;
-    top: 360px;
+    top: 380px;
   }
 }
 
