@@ -503,7 +503,6 @@
 .clutch__description-opacity {
   opacity: 0.5;
   margin-bottom: 55px;
-  font-weight: bold;
   font-family: Montserrat, sans-serif;
 }
 
@@ -557,7 +556,7 @@
   color: #000;
   text-transform: uppercase;
   display: inline-block;
-  font-weight: bold;
+
 }
 
 .btn:hover {
@@ -773,7 +772,7 @@
 
 .total-look__title {
   width: 375px;
-  height: 41px;
+  height: 20px;
   left: 47px;
   top: 34px;
   font-family: Montserrat, sans-serif;
@@ -785,7 +784,7 @@
 
 .total-look__subtitle {
   width: 220px;
-  height: 17px;
+  height: 35px;
   left: 47px;
   top: 17px;
   font-family: Montserrat, sans-serif;
@@ -801,7 +800,7 @@
 
 .total-look__description {
   width: 368px;
-  height: 0;
+  height: 15;
   left: 50px;
   top: 35px;
   font-family: Montserrat, sans-serif;
@@ -858,10 +857,10 @@
   width: 350px;
   font-size: 13px;
   line-height: 16px;
-  top: 650px;
+  top: 415;
   font-family: Montserrat, sans-serif;
   position: absolute;
-  left: 948px;
+  left: 120px;
 }
 
 .total-look__other:hover {
@@ -874,7 +873,7 @@
     width: 112px;
     height: 15px;
     left: 85%;
-    top: 810px;
+    top: 865px;
     font-family: Montserrat, sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -886,7 +885,7 @@
   .footer::after {
     content: "";
     position: absolute;
-    background-image: url(./img/Маленький%20желто-белый-svg.png);
+    background-image: url(./img/Маленький%20желто-белый-svg.png); no-repeat;
     width: 82px;
     height: 22px;
     left: 125px;
@@ -900,8 +899,8 @@
   }
 
   .total-look__other{
-    left: 430px;
-    top: 800px;
+    left: 120px;
+    top: 390px;
   }
 }
 
@@ -917,8 +916,8 @@
   }
 
   .total-look__other {
-    left: 250px;
-    top: 850px;
+    left: 150px;
+    top: 360px;
   }
 }
 
@@ -928,7 +927,7 @@
   }
 
   .total-look__other {
-    top: 800px;
+    top: 400px;
     width: 153px;
     height: 50px;
     font-size: 15px;
@@ -961,7 +960,7 @@
 
   .total-look__title {
     width: 245.53px;
-    height: 26.87px;
+    height: 12px;
     left: 24px;
     top: 23px;
     font-size: 20px;
@@ -970,7 +969,7 @@
 
   .total-look__subtitle {
     width: 144.04px;
-    height: 11.14px;
+    height: 11px;
     left: 24.77px;
     top: 11px;
     font-size: 10px;
@@ -978,8 +977,8 @@
   }
 
   .total-look__description {
-    width: 228px;
-    height: 4px;
+    width: 290px;
+    height: 30px;
     left: 24px;
     top: 40px;
     font-size: 10px;
@@ -997,7 +996,7 @@
 }
 
   .total-look__other {
-    left: 250px;
-    top: 525px;
+    left: 110px;
+    top: 250px;
   }
 }
