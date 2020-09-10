@@ -872,8 +872,8 @@
     position: absolute;
     width: 112px;
     height: 15px;
-    left: 85%;
-    top: 865px;
+    right: 125px;
+    bottom: 30px;
     font-family: Montserrat, sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -919,6 +919,10 @@
     left: 150px;
     top: 380px;
   }
+
+  .footer {
+   display: none;
+  }
 }
 
 @media (max-width: 660px) {
@@ -933,6 +937,10 @@
     font-size: 15px;
     line-height: 18px;
     background: url(img/arrow_page3.png) bottom left no-repeat;
+  }
+
+  .footer {
+   display: none;
   }
 }
 
