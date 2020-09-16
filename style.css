@@ -241,7 +241,7 @@
 }
 
 .new-collection__section {
-  padding-top: 120px
+  padding-top: 120px;
 }
 
 .new-collection__title {
@@ -354,45 +354,12 @@
   margin-right: 13px;
 }
 
-@media (max-width: 565px) {
-  .adaptive {
-    display: none;
-}
-
-  .new-collection__description {
-    display: none;
-  }
-
-  .new-collection__other {
-    display: none;
-  }
-
-  .new-collection__farther {
-    display: none;
-  }
-
-  .header__language {
-    display: none;
-}
-
-  .header::before {
-    display: none;
-}
-
-  .new-collection__girl {
-    display: none;
-}
-
-  .social-networks {
-    display: none;
-}
-
-  .figure {
+@media (max-width: 515px) {
+  .adaptive, .new-collection__description, .new-collection__other, .new-collection__farther, .header__language, .header::before, .new-collection__girl, .social-networks, .figure  {
     display: none;
 }
 
   .header__title {
-    width: 98px;
     height: 37px;
     left: 26px;
     margin: 14px 0px 18px 26px;
@@ -402,36 +369,42 @@
     text-align: center;
     letter-spacing: .07em;
     color: #000;
-}
 
-  .header__menu {
-    display: block;
- }
+}
 
   .new-collection {
     background-image: url(./img/girl_mobile.png);
-    background-repeat: no-repeat;
     background-size: cover;
     height: 596px;
     min-height: 375px;
 }
 
+.new-collection__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
   .new-collection__title {
-    width: 297px;
-    height: 50px;
+    height: 100px;
+    top: 150px;
+    margin-top: 250px;
     font-weight: bold;
     font-size: 50px;
-    line-height: 51px;
+    line-height: 56px;
 }
 
   .new-collection__title::after {
     content: "";
     position: absolute;
     background-image: url(./img/Vector1.png);
-    width: 35px;
-    height: 20px;
-    left: 145px;
-    top: 115px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    width: 28px;
+    height: 17px;
+    left: 220px;
+    top: 550px;
     cursor: pointer;
   }
 }
