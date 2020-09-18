@@ -358,16 +358,14 @@
   align-items: center;
 }
 
-
-
 @media (max-width: 1170px) {
   .new-collection__other {
     margin-top: 40px;
 }
 
-.new-collection__links {
-  flex-direction: column;
-  align-items: flex-start;
+  .new-collection__links {
+    flex-direction: column;
+    align-items: flex-start;
  }
 }
 
@@ -449,7 +447,7 @@
  }
 }
 
-@media (max-width: 515px) {
+@media (max-width: 768px) {
   .adaptive, .new-collection__description, .new-collection__other, .new-collection__farther, .header__language, .header::before, .new-collection__girl, .social-networks, .figure  {
     display: none;
 }
@@ -480,9 +478,9 @@
 }
 
   .new-collection__title {
-    height: 0;
-    top: 150px;
-    margin-top: 250px;
+    max-width: 350px;
+    position: relative;
+    margin-top: 400px;
     font-weight: bold;
     font-size: 50px;
     line-height: 56px;
@@ -497,8 +495,8 @@
     display: block;
     width: 28px;
     height: 17px;
-    left: 220px;
-    top: 550px;
+    left: 48%;
+    bottom: -30px;
     cursor: pointer;
   }
 }
